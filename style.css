@@ -1,0 +1,180 @@
+*{
+    margin: 0px;
+}
+
+.marginm{
+    margin: 15px;
+    margin-bottom: 30px;
+}
+
+.texto{
+
+    position: relative;
+    
+  
+}
+
+.imagemtexto{
+    
+    align-items: center;
+    max-width: 100%;
+}
+
+hr{
+    height: 3px;
+    background-color: rgb(134, 134, 134);
+}
+
+.menu{
+    color: black;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+    border-bottom: 15px;
+    border:  0px;
+}
+
+h1{
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-size: 7vw;
+    text-align: center;
+    max-width: 100%;
+}
+
+h2{
+    color: rgb(253, 0, 0);
+    font-family: 'Sometype Mono', monospace;
+    max-width: 100%;
+    font-size: 4vw;
+}
+p{
+    color: white;
+    font-family: 'Mohave', sans-serif;
+    max-width: 100%;
+   font-size: 1.7vw;
+}
+
+.downtext{
+    top:  100px;
+    position: relative;
+    max-width: 100%;
+}
+
+li{
+    color: white;
+    font-family: 'Mohave', sans-serif;
+    max-width: 100%;
+    font-size: 1.7vw;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    text-decoration: none;
+    color: rgb(97, 97, 97);
+}
+
+.cli{
+    color: white;
+    font-family: 'Sometype Mono', monospace;
+    max-width: 100%;
+}
+
+
+.ig{
+    max-width: 45%;
+    height: 45%;
+}
+
+@media screen and (max-width: 820px){
+
+    .ig{
+        max-width: 95%;
+        height: 95%;
+    }
+
+    *{
+        margin: 8px;
+        margin-bottom: 8px;
+    }
+    
+    li{
+        font-size: 6vw; 
+    }
+
+    p{
+        font-size: 5vw;
+    }
+
+    h2{
+        font-size: 8vw;
+    }
+
+    h1{
+        font-size: 10vw;
+    }
+}
+
+
+.my-element {
+
+    animation:bounceInLeft; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 3s; /* don't forget to set a duration! */
+  }
+
+  .my-element2 {
+
+    animation:bounceInLeft; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+  }
+
+  .cl2{
+      color: white;
+      opacity: 0.6;
+      font-size: 3.5vw
+  }
+
+  
+  header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height:  5.5vw;
+    background-color: rgb(34, 34, 34);
+    margin: 0px;
+    
+}
+
+header .lul /*ul*/ {
+    list-style: none;
+    color: white;
+    display: flex;
+}
+
+
+header .lulia/*ul li a*/ {
+    color: white;
+    font-size: 1.8vw;
+    padding: 1vw;
+    border-radius: 1.5vw;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    transition: all 0.4s;
+    text-decoration: underline;
+}
+
+header .luli2 /*ul li*/ a:hover {
+    background-color: #008cff;
+    opacity: 0.8;
+}
+
+.sobre {
+    padding: 6vw 11vw;
+}
